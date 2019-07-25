@@ -16,7 +16,7 @@ var env = process.env.NODE_ENV || 'development';
 app.locals.ENV = env;
 app.locals.ENV_DEVELOPMENT = env == 'development';
 
-// this is the view engine setup 
+// this is the view engine setup  asdfasdfsa
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
